@@ -1,0 +1,137 @@
+
+
+.box{
+    height:80px;
+    width:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h1{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+
+ .leftcontainer{
+    /* background-color: #ffffff; */
+    height: 900px;
+    width: 700px;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 32%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px 70px;
+    margin-right: 400px;
+}
+
+.rightcontainertop{
+    background-color:#f7f7f7;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 59px;
+    right: 0;
+    bottom: 0;
+    max-width: 440px;
+    /* padding: 25px 35px 0 35px; */
+    width: 400px;
+    height: 795px;
+}
+.header{
+    text-align: center;
+    color: #333;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    
+}
+.header,h1{
+    font-weight: bold;
+}
+.headertitle{
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
+.btn1{
+    width:90%;
+    margin: 7px;
+    padding: 12px;
+    color: white;
+    font-weight: 600;
+    background:#03acbb;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn1:hover{
+    border: 1px solid black;
+}
+.formatting{
+    margin-left:20px;
+}
+.layoutbutton{
+    margin-right: 12px;
+    margin-top: 5px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow:0 1px 5px rgb(0 0 0 / 40%) ;
+}
+.layoutbutton:hover{
+    border: 1px solid green;
+    cursor: pointer;
+}
+.font{
+    display: flex;
+   
+}
+.drop{
+    padding:  10px 40px 10px 20px;
+    margin-right: 20px;
+}
+
+.ckbx{
+    width: 30px;
+    height: 30px;
+    /* background-color:mediumspringgreen */
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    /* -webkit-appearance: none; */
+    outline: none;
+    cursor: pointer;
+}
+
+.ckbx:checked {
+    border: 3px solid black;
+}
+.experience{
+  flex-direction: column;
+    flex-wrap: wrap;
+}
+.description{
+    
+    
+    word-wrap: break-word;
+}
+.skills{
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  
+}
+
+
+

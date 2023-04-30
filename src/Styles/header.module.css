@@ -1,0 +1,26 @@
+.logo{
+    margin-right: auto;
+    
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.loginbtn{
+    font-weight: bold;
+    color: blue;
+    padding:5px;
+}
+.signupbtn{
+    
+    padding:5px;
+    color: blue;
+    font-weight: bold;
+}
+.active{
+    border-radius: 10%;
+    border: 3px solid chartreuse;
+    background-color:forestgreen;
+   
+}

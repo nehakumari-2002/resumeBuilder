@@ -1,0 +1,72 @@
+ 
+ .container{
+    background-color: #ffffff;
+    height: 730px;
+    width: 600px;
+    box-shadow: 0 2px 9px rgb(186 186 186 / 50%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 25px;
+}
+.Education{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.headertitle{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+input[type=text]{
+    padding: 10px;
+    border: 1px solid #888;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+input[type=text].small{
+    width: 48%;
+}
+.label2{
+margin-left: 230px;
+}
+.Month{
+    text-align-last: center;
+    padding: 8px;
+  width: 49%;
+}
+.Month:focus {
+    outline: 0;
+  }
+  .Year{
+    text-align-last: center;
+    padding: 8px;
+    width: 49%;
+    margin-left: 10px;
+  }
+  input[type=submit]{
+    padding: 15px;
+    border: 1px solid #888;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: #8cc53e;
+    color: #fff;
+    margin-left: 65px;
+    margin-top: 25px;
+    font-size: larger;
+  }
+  .back{
+  margin-top: 10px;
+  margin-left: 280px;
+  }
+  input[type=submit]:hover{
+      cursor: pointer;
+      background-color: lawngreen;
+  }

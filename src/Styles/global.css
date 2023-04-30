@@ -1,0 +1,30 @@
+html,body,#root{
+    height: 100%;
+}
+.container{
+    /* background: red; */
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+}
+.header{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 15px 10px -15px #111;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.content{
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

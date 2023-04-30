@@ -1,0 +1,64 @@
+.color1{
+    background-color: green;
+  }
+  .color2{
+    background-color: red;
+  }
+  .color3{
+    background-color:aqua;
+  }
+  .color4{
+    background-color: coral;
+  }
+  .color5{
+    background-color: crimson;
+  }
+  .color6{
+    background-color: goldenrod;
+  }
+  .color7{
+    background-color: indianred;
+  }
+  .color8{
+    background-color: black;
+  }
+  .color9{
+    background-color: cornflowerblue;
+  }
+  .color10{
+    background-color: darkmagenta;
+  }
+  .fontsize1{
+    font-size: small;
+  }
+  .fontsize2{
+    font-size: medium;
+  }
+  .fontsize3{
+    font-size: large;
+  }
+  .fontfamily1{
+    font-family: 'Raleway' !important; 
+  }
+  .fontfamily2{
+    font-family: 'ubuntu' !important ;
+  }
+  .fontfamily3{
+    font-family: 'Segoe UI'  !important;
+  }
+  .fontfamily4{
+    font-family:  'Lucida Sans' !important;
+  }
+  .fontfamily5{
+    font-family:  Impact;
+  }
+  .fontfamily6{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .fontfamily7{
+    font-family:Verdana;
+  }
+
+
+
+
